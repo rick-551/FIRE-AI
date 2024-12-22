@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="?textAppearanceSubtitle2MediumNew"
+        android:layout_gravity="start"
+        android:id="@id/tvCategoryName"
+        android:paddingLeft="@dimen/space_16"
+        android:paddingTop="@dimen/space_8"
+        android:paddingRight="@dimen/space_16"
+        android:paddingBottom="@dimen/space_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Спорт"
+        android:paddingHorizontal="@dimen/space_16"
+        android:paddingVertical="@dimen/space_8" />
+    <TextView
+        android:textAppearance="?textAppearanceBody2MediumNew"
+        android:textColor="?primaryColor"
+        android:layout_gravity="end"
+        android:id="@id/tvAll"
+        android:paddingLeft="@dimen/space_8"
+        android:paddingTop="@dimen/space_8"
+        android:paddingRight="@dimen/space_8"
+        android:paddingBottom="@dimen/space_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginRight="@dimen/space_8"
+        android:text="@string/all"
+        android:layout_marginHorizontal="@dimen/space_8"
+        android:paddingHorizontal="@dimen/space_8"
+        android:paddingVertical="@dimen/space_8" />
+</FrameLayout>
